@@ -1,0 +1,41 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter / temp notebooks
+*.ipynb_checkpoints
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Docker-related
+*.log
+.DS_Store
+.env
+docker-compose.override.yml
+
+# Chem-Autotutor outputs
+out/
+*.sdf
+*.png
+*.html
+*.txt
+*.srt
+*.md
+
+# Temp files created by OPSIN subprocess
+opsin_in_*
+opsin_out_*
+
+# IDE/editor junk
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS cache
+Thumbs.db
